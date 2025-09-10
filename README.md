@@ -1,1 +1,13 @@
-# Vasilev_Vyacheslav_RIS-25-2b_LabsPSTU_Programming
+# One line
+
+## Two line
+
+*Live*
+~~bad~~
+**Cool**
+***forever***
+
+Ala*bu*ba
+
+`smd`
+
