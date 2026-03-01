@@ -2,6 +2,6 @@
 
 ## РИС-25-2Б
 
-- [ ] Semester1
+- [x] Semester1
 - [ ] Semester2
 
