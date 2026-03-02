@@ -30,10 +30,10 @@
 
 ## Блок-схема:
 
-1. [Функция main](lab7.1_scheme1.png)
-2. [Функции заполнения и вывода ](lab7.1_scheme2.png)
-3. [Функция удаления чётных чисел](lab7.1_scheme3.png)
-4. [Функция удаления чётных слов](lab7.1_scheme4.png)
+1. [Функция main](screenshots/lab7.1_scheme1.png)
+2. [Функции заполнения и вывода ](screenshots/lab7.1_scheme2.png)
+3. [Функция удаления чётных чисел](screenshots/lab7.1_scheme3.png)
+4. [Функция удаления чётных слов](screenshots/lab7.1_scheme4.png)
 
   
 
@@ -148,4 +148,4 @@ int main()
 ---
 ## Скриншот:
 
-[Скриншот](lab7.1_run.png)
+[Скриншот](screenshots/lab7.1_run.png)

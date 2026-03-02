@@ -26,8 +26,8 @@
 
 ## Блок-схема:
 
-1. [Функция main](lab10_scheme1.png)
-2. [Функции заполнения, вывода и удаления k строк массива](lab10_scheme2.png)
+1. [Функция main](screenshots/lab10_scheme1.png)
+2. [Функции заполнения, вывода и удаления k строк массива](screenshots/lab10_scheme2.png)
 
   
 
@@ -122,4 +122,4 @@ int main() {
 ```
 ---
 ## Скриншот:
-[Скриншот](lab10_run.png)
+[Скриншот](screenshots/lab10_run.png)

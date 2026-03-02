@@ -28,8 +28,8 @@
 
 ## Блок-схема:
 
-1. [Функция main 1](lab9_scheme1.png)
-2. [Функция main 2](lab9_scheme2.png)
+1. [Функция main 1](screenshots/lab9_scheme1.png)
+2. [Функция main 2](screenshots/lab9_scheme2.png)
 
 ---
 
@@ -158,6 +158,6 @@ hello hello
 
 ---
 ## Скриншот:
-[Скриншот 1](lab9_run1.png)
-[Скриншот 2](lab9_run2.png)
-[Скриншот 3](lab9_run3.png)
+[Скриншот 1](screenshots/lab9_run1.png)
+[Скриншот 2](screenshots/lab9_run2.png)
+[Скриншот 3](screenshots/lab9_run3.png)

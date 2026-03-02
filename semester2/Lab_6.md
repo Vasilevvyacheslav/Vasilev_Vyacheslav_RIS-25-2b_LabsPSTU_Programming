@@ -27,8 +27,8 @@
 
 ## Блок-схема:
 
-1. [Функция main 1](lab6_scheme1.png)
-2. [Функция main 2](lab6_scheme2.png)  
+1. [Функция main 1](screenshots/lab6_scheme1.png)
+2. [Функция main 2](screenshots/lab6_scheme2.png)  
 
 ---
 
@@ -112,4 +112,4 @@ trp9 s2tr 952 tni32
 ```
 ---
 ## Скриншот:
-[Скриншот](lab6_run.png)
+[Скриншот](screenshots/lab6_run.png)
