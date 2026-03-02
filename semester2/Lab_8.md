@@ -318,5 +318,7 @@ int main()
 ---
 ## Скриншот:
 [Скриншот 1](screenshots/lab8_run1.png)
+
 [Скриншот 2](screenshots/lab8_run2.png)
+
 [Скриншот 3](screenshots/lab8_run3.png)
