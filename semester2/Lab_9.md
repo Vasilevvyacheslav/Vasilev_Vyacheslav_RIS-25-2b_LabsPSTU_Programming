@@ -159,5 +159,7 @@ hello hello
 ---
 ## Скриншот:
 [Скриншот 1](screenshots/lab9_run1.png)
+
 [Скриншот 2](screenshots/lab9_run2.png)
+
 [Скриншот 3](screenshots/lab9_run3.png)
