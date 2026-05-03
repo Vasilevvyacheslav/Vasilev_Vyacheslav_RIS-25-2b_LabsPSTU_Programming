@@ -37,6 +37,32 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
 
+# Visual Studio specific
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.tlog
+*.ipch
+*.vcxproj.user
+*.vs/
+*.VSCodeCounter/
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+ipch/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Word temporary files
+~$*.docx
+*.tmp

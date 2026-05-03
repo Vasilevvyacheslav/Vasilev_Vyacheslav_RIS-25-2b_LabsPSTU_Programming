@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Страница-1" id="Fyv06YfP0ZXoMLFIFaDF">
+    <mxGraphModel dx="1226" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-1" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Pair&lt;/b&gt;" vertex="1">
+          <mxGeometry height="300" width="370" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-2" parent="o4Exy91VLhDgcnU1t2Ya-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0" value="# first: int&lt;br&gt;&lt;div&gt;# second: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-3" parent="o4Exy91VLhDgcnU1t2Ya-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontStyle=0" value="" vertex="1">
+          <mxGeometry height="18" width="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-4" parent="o4Exy91VLhDgcnU1t2Ya-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0" value="+ Pair();&lt;div&gt;+ Pair(first: int, second&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: int)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Pair(other: const Pair&amp;amp;)&lt;/div&gt;&lt;div&gt;+ ~Pair();&lt;/div&gt;&lt;div&gt;+ GetFirst(): int;&lt;/div&gt;&lt;div&gt;+ SetFirst(first: int): void&lt;/div&gt;&lt;div&gt;+ GetSecond(): int;&lt;/div&gt;&lt;div&gt;+ SetSecond(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;sec: int&lt;/span&gt;): void&lt;/div&gt;&lt;div&gt;+ operator = (const Pair&amp;amp;): Pair&amp;amp;;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;friend operator &amp;gt;&amp;gt;(in: istream&amp;amp;, other: Pair&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;istream&amp;amp;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;friend operator &amp;lt;&amp;lt;(out: ostream&amp;amp;, other: Pair&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ostream&amp;amp;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Show() override: void;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ product(): int;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="222" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Rectangle" vertex="1">
+          <mxGeometry height="230" width="330" x="330" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-6" parent="o4Exy91VLhDgcnU1t2Ya-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Rectangle();&lt;div&gt;+ Rectangle(length: int, width&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: int)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Rectangle(other: const Rectangle&amp;amp;)&lt;/div&gt;&lt;div&gt;+ ~Rectangle();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;friend operator &amp;gt;&amp;gt;(in: istream&amp;amp;, other: Rectangle&amp;amp;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;istream&amp;amp;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;friend operator &amp;lt;&amp;lt;(out: ostream&amp;amp;, other: Rectangle&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ostream&amp;amp;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Show() override: void;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ area(): int;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ perimetr(): int;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="204" width="330" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-7" edge="1" parent="1" source="o4Exy91VLhDgcnU1t2Ya-5" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="o4Exy91VLhDgcnU1t2Ya-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="646" y="630" as="sourcePoint" />
+            <mxPoint x="806" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Object" vertex="1">
+          <mxGeometry height="80" width="330" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-10" parent="o4Exy91VLhDgcnU1t2Ya-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Object();&lt;div&gt;+ virtual ~Object();&lt;/div&gt;&lt;div&gt;+&amp;nbsp;virtual Show() = 0: void;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="330" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-13" edge="1" parent="1" source="o4Exy91VLhDgcnU1t2Ya-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="o4Exy91VLhDgcnU1t2Ya-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="470" y="175" as="sourcePoint" />
+            <mxPoint x="500" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-14" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Vector&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="370" x="790" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-15" parent="o4Exy91VLhDgcnU1t2Ya-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0" value="&lt;div&gt;- head:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Object**;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- size: int;&lt;/div&gt;&lt;div&gt;- cur: int;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-16" parent="o4Exy91VLhDgcnU1t2Ya-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontStyle=0" value="" vertex="1">
+          <mxGeometry height="18" width="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-17" parent="o4Exy91VLhDgcnU1t2Ya-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0" value="+ Vector();&lt;div&gt;+ Vector(size: int);&lt;/div&gt;&lt;div&gt;+&amp;nbsp;~Vector();&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Add(p: Object*): void;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;friend operator &amp;lt;&amp;lt;(out: ostream&amp;amp;, other: const Vector&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ostream&amp;amp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="370" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Exy91VLhDgcnU1t2Ya-18" edge="1" parent="1" source="o4Exy91VLhDgcnU1t2Ya-10" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o4Exy91VLhDgcnU1t2Ya-17" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="670" y="30" as="sourcePoint" />
+            <mxPoint x="830" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
